@@ -9,7 +9,9 @@ const router = createBrowserRouter([
     element: <ConfirmationPage />,
     
   },
-]);
+], {
+	basename: "/false-positive-portal/"
+});
 
 function App() {
   return (
